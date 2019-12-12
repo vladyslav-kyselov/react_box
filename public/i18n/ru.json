@@ -1,0 +1,30 @@
+{
+  "nameList": {
+    "goods": "Товары",
+    "box": "Корзина"
+  },
+  "item": {
+    "price": "Цена",
+    "quantity": "Количество"
+  },
+  "button": {
+    "buy": "Купить",
+    "delete": "Удалить"
+  },
+  "goodsItems": {
+    "filterName": "Поиск товара",
+    "filterNamePlaceholder": "Введите название",
+    "filterPrice": "Фильтр по цене",
+    "filterPriceFrom": "От",
+    "filterPriceBefore": "До",
+    "filterCategories": "Выберите категорию",
+    "filterCategoriesAllCars": "Все"
+  },
+  "boxItems": {
+    "sum": "Сумма",
+    "selectLang": "Выберите язык"
+  },
+  "pagination": {
+    "outputElement": "Вывод товаров"
+  }
+}

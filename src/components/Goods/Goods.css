@@ -1,0 +1,31 @@
+.Goods {
+    width: calc(50% - 20px);
+    margin-left: 20px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+.Goods__title {
+    text-align: center;
+
+}
+
+.Goods__input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    left: 50px;
+}
+
+.Goods__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 75.6vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-Y: scroll;
+}

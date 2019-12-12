@@ -1,0 +1,58 @@
+.menu {
+    font-size: 12px;
+    position: absolute;
+    left: 87%;
+    top: 2.5%;
+}
+
+.item__lang {
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.dropdown__item {
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.dropdown__item:hover {
+    background-color: darkgrey;
+    border-radius: 10px 10px 0 0;
+}
+
+.item__lang:hover {
+    color: white;
+    background-color: #69e;
+}
+
+.item__lang:hover:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.menu__dropdown, .item__ul {
+    border-radius: 10px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.item__ul {
+    border-radius: 0 0 10px 10px;
+    display: none;
+    position: absolute;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.dropdown__item:hover .item__ul {
+    display: block;
+}
+

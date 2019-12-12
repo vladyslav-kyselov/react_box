@@ -1,0 +1,30 @@
+{
+  "nameList": {
+    "goods": "Товари",
+    "box": "Корзина"
+  },
+  "item": {
+    "price": "Ціна",
+    "quantity": "Кількість"
+  },
+  "button": {
+    "buy": "Купити",
+    "delete": "Видалити"
+  },
+  "goodsItems": {
+    "filterName": "Пошук товара:",
+    "filterNamePlaceholder": "Введіть назву",
+    "filterPrice": "Фільтр по ціні:",
+    "filterPriceFrom": "Від",
+    "filterPriceBefore": "До",
+    "filterCategories": "Виберіть категорію:",
+    "filterCategoriesAllCars": "Всі"
+  },
+  "boxItems" : {
+    "sum": "Сума",
+    "selectLang":"Виберіть мову"
+  },
+  "pagination": {
+    "outputElement": "Вивід товарів"
+  }
+}

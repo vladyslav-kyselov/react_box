@@ -1,0 +1,83 @@
+.pagination-item:nth-child(2) {
+    border-left: 1px solid black;
+}
+
+.pagination-item {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: dimgrey;
+    cursor: pointer;
+    padding-right: 7px;
+    padding-left: 7px;
+    height: 30px;
+}
+
+.selected {
+    font-weight: bold;
+    color: blue;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    background-color: white;
+}
+
+.pagination__arrow {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: black;
+    margin: 2px 0 0;
+    padding: 0;
+    float: left;
+}
+
+/*выпадающее меню вверх*/
+
+.menu-quantity-page-element__list {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 150px;
+    background-color: grey;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+.list__menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+}
+
+.menu-quantity-page-element__list:hover .list__menu {
+    display: block;
+}
+
+.menu__item {
+    cursor: pointer;
+    width: 150px;
+    margin-left: -40px;
+    background-color: grey;
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu__item:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.menu-quantity-page-element__list:hover{
+    background-color: darkgrey;
+    border-radius: 0 0 5px 5px;
+}
+.menu__item:hover{
+    color: white;
+    background-color: #69e;
+}

@@ -1,0 +1,29 @@
+.Box {
+    width: calc(50% - 30px);
+    margin-left: 20px;
+
+}
+
+.Box__sum {
+    position: absolute;
+    top: 87%;
+    font-size: 22px;
+}
+
+.Box__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 79vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-Y: scroll;
+}
+
+.Box__title {
+    text-align: center;
+}
+
+.Box__pagination{
+    margin-top:43px;
+}

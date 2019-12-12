@@ -1,0 +1,30 @@
+{
+  "nameList": {
+    "goods": "Goods",
+    "box": "Box"
+  },
+  "item": {
+    "price": "Price",
+    "quantity": "Quantity"
+  },
+  "button": {
+    "buy": "Buy",
+    "delete": "Delete"
+  },
+  "goodsItems": {
+    "filterName": "Search item",
+    "filterNamePlaceholder": "Enter the title",
+    "filterPrice": "Filter for price",
+    "filterPriceFrom": "From",
+    "filterPriceBefore": "Before",
+    "filterCategories": "Choose categories",
+    "filterCategoriesAllCars": "All"
+  },
+  "boxItems": {
+    "sum": "Sum",
+    "selectLang": "Select lang"
+  },
+  "pagination": {
+    "outputElement": "Output item"
+  }
+}

@@ -1,0 +1,8 @@
+.App {
+    display: flex;
+    margin: 10px 10px 0;
+    height: calc(100vh - 10px);
+    border: 1px solid black ;
+    border-bottom-width: 0;
+    border-radius: 15px 15px 0 0;
+}
